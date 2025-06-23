@@ -24,3 +24,18 @@ This project includes:
 2. Run the Python file:
 ```bash
 python user_account_system.py
+## ✅ Example Output
+1.Login
+2.Update Password
+3.Reset Password
+4.Show Login History
+5.Exit
+Choose an option: 1
+Enter your password: wrongpass
+Incorrect password
+Choose an option: 1
+Enter your password: wrongpass
+Incorrect password
+Choose an option: 1
+Enter your password: wrongpass
+Account is locked due to too many failed attempts. Wait at least one minute.```
