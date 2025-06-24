@@ -30,7 +30,6 @@ class User:
     def show_username(self):
         print(self.username)
     def __log(self, msg):
-        # print(f"[LOG]: {msg}")
         with open ("log.txt", "a") as f:
             f.write(f"{self.username} -> {msg}\n")
 
