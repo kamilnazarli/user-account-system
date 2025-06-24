@@ -1,6 +1,5 @@
 #USER ACCOUNT SYSTEM
 import datetime
-import time
 class User:
     def __init__(self, username, password, secret_answer):
         self.username = username
@@ -87,7 +86,7 @@ class User:
             return True
         return False
     
-user = User("johndoe321", "mypassword", "eod")
+user = User("johndoe321", "Mypassword1", "eod")
 while True:
     print("\n1. Login\n2. Update Password\n3. Reset Password\n4. Show Login History\n5. Exit")
     choice = input("Choose an option: ")
