@@ -38,7 +38,8 @@ Enter your password: wrongpass
 Incorrect password
 Choose an option: 1
 Enter your password: wrongpass
-Account is locked due to too many failed attempts. Wait at least one minute.```
+Account is locked due to too many failed attempts. Wait at least one minute.
+```
 
 ## 📄 Log File
 
