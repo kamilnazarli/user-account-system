@@ -39,3 +39,16 @@ Incorrect password
 Choose an option: 1
 Enter your password: wrongpass
 Account is locked due to too many failed attempts. Wait at least one minute.```
+
+## 📄 Log File
+
+The `log.txt` file automatically stores login and system event logs such as:
+
+- Successful and failed login attempts
+- Password updates and resets
+- Account lockouts and unlocks
+
+This file is useful for tracking user activity and debugging.
+
+> Note: If you're running this program locally, a new `log.txt` will be created in the project directory if it doesn't already exist.
+
